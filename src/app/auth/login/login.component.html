@@ -1,0 +1,75 @@
+<script src="https://kit.fontawesome.com/aabdd0d793.js" crossorigin="anonymous"></script>
+<body>
+    <!--HEADER -->
+    <header>
+        <div class="logo">
+            <!--LOGO NO FUNCIONA ARREGLAR -->
+            <img src="./assets/logo.png" alt="logo de la compañia">
+            <h2 class="nombre_empresa">Banco Xaixa</h2>
+        </div>
+        <!--HEADER-NAV -->
+        <nav>
+            <div>
+            <a class="link_nav" href="#">Inicio</a>
+            <a class="link_nav" href="#SobreNosotros">Sobre Nosotros</a>
+            <a class="link_nav" href="#">Contacto</a>
+            </div>
+        </nav>
+    </header>
+     <!--LOGIN -->
+    <main>
+        <section class="form-login">
+            <h5>Iniciar Sesión</h5>
+            <form method="get" action="login.html" id="loginform">
+
+                <input class="controls" required type="text" id="user" name="usuario" value="" placeholder="Usuario" >
+
+                <input class="controls" required type="password" id="pass" name="contraseña" value="" placeholder="Contraseña">
+
+                <input class="buttons" type="submit" name="" value="Ingresar">
+                <input class="buttons" type="reset" name="" value="Limpiar">
+                <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+                <a class="link_nav" href="index.html">Gestor</a>
+            </form>
+        </section>
+
+        <!--LOGIN - REGISTRATE -->
+        <section class="form-register">
+            <a href="register.html">
+            <p>¿No tienes cuenta?</p>
+            <p>Registrate</p>
+            </a>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="page_footer" id="SobreNosotros">
+        <div class="group_1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./assets/logo.png" alt="logo de la compañia">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>LA EMPRESA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, aut illo suscipit quia</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, aut illo suscipit quia</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="social_media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="group_2">
+            <small>&copy;2023 <b>Xaixa</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
+</body>
