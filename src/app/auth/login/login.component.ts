@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { ClienteService } from 'src/app/services/cliente/cliente.service';
 
 @Component({
@@ -13,7 +14,7 @@ export class LoginComponent {
   password: string="";
 
   //constructor
-  constructor(private clienteService:ClienteService){}
+  constructor(private clienteService:ClienteService, private router:Router){}
 
   //Escuchar evento
   validarLogin(){
@@ -24,6 +25,8 @@ export class LoginComponent {
     if(usuario)
       {
       console.log("usuario logeado",usuario)
+      //ir al dasboard (router)
+      this.router.navigateByUrl("/pages/dashboard")
       }
     else
       {
