@@ -1,0 +1,62 @@
+/*Register page*/
+
+.form-register-page {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+    border-top: 4px solid #7f66e3 ;
+  }
+
+  .form-register-page h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .controls_register {
+    width: 100%; 
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    background-color: transparent;
+  }
+
+  .form-register-page .agreement
+  {
+    font-size:15px;
+  }
+  
+  .form-register-page p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+
+  
+  .form-register-page a {
+    text-decoration: none;
+    color:#000000;
+  }
+  
+  .form-register-page a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-register-page .botons_register {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    margin-top: 3px;
+    background-color: transparent;
+    box-shadow: 7px 13px 37px #000;
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom:20px;
+  }

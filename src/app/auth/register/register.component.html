@@ -1,0 +1,33 @@
+<!--REGISTER -->
+<main>
+    <section class="form-register-page">
+        <h4>Registro</h4>
+        <form method="get" action="">
+        <label for="nombre"> Nombre
+        <input class="controls_register" required type="text" name="nombre" id="nombres">
+        </label>
+        <label for="apellidos"> Apellidos
+        <input class="controls_register" required type="text" name="apellidos" id="apellidos">
+        </label>
+        <label for="correo"> Correo Electrónico
+        <input class="controls_register" required type="email" name="correo" id="correo">
+        </label>
+        <label for="password"> Contraseña
+        <input class="controls_register" required type="password" name="password" id="password">
+        </label>
+        <label for="birth"> Fecha de Nacimiento
+        <input class="controls_register" required type="date" name="fechaNacimiento" placeholder="Fecha de Nacimiento" id="birth">
+        </label>
+        <label class="agreement">
+        <input class="checkbox" required type="checkbox" name="agreement">
+        Estoy de acuerdo con <a href="#">Terminos y Condiciones</a>
+        </label>
+        <label>
+        <input class="botons_register" type="submit" onclick="return enviarFormulario();" value="Enviar">
+        <input class="buttons" type="reset" name="" value="Limpiar">
+        <div id="error"></div>
+        </label>
+        </form>
+        <p><a routerLink="/auth/login">¿Ya tengo Cuenta?</a></p>
+      </section>
+</main>

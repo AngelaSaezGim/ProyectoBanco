@@ -1,8 +1,62 @@
-<h3>App Banco</h3>
+    <!--HEADER -->
+    <header>
+        <div class="logo">
+            <!--LOGO NO FUNCIONA ARREGLAR -->
+            <img src="./assets/logo.png" alt="logo de la compañia">
+            <h2 class="nombre_empresa">Banco Xaixa</h2>
+        </div>
+        <!--HEADER-NAV -->
+        <nav>
+            <div class="header_nav">
+            <a routerLink="/auth/login">Inicio</a>
+            <a href="#SobreNosotros">Sobre Nosotros</a>
+            <a routerLink="/auth/contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+<h3>Navegación</h3>
 <nav class="main-menu">
     <ul>
         <li><a routerLink="/auth/login">Iniciar Sesion</a></li>
+        <li><a routerLink="/auth/register">Registrate</a></li>
+        <li><a routerLink="/auth/contacto">Contacto</a></li>
         <li><a routerLink="/pages/dashboard">Dashboard</a></li>
+        <li><a routerLink="/pages/transferencias-recibidas">Transferencias Recibidas</a></li>
+        <li><a routerLink="/pages/transferencias-enviadas">Trans. Enviadas</a></li>
+        <li><a routerLink="/pages/nueva-transferencia">Trans. Recibidas</a></li>
+        <li><a routerLink="/pages/cuenta"> Cuenta</a></li>
     </ul>
 </nav>
+<!-- aquí se recarga el contenido al cambiar de ruta-->
 <router-outlet></router-outlet>
+
+    <!--FOOTER -->
+    <footer class="page_footer" id="SobreNosotros">
+        <div class="group_1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./assets/logo.png" alt="logo de la compañia">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>LA EMPRESA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, aut illo suscipit quia</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, aut illo suscipit quia</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="social_media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="group_2">
+            <small>&copy;2023 <b>Xaixa</b> - Todos los Derechos Reservados</small>
+        </div>
+    </footer>
