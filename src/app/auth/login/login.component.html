@@ -22,11 +22,11 @@
             <h5>Iniciar Sesión</h5>
             <form method="get" action="login.html" id="loginform">
 
-                <input class="controls" required type="text" id="user" name="usuario" value="" placeholder="Usuario" >
+                <input [(ngModel)]="usuario" class="controls" required type="text" id="user" name="usuario" value="" placeholder="Usuario" >
 
-                <input class="controls" required type="password" id="pass" name="contraseña" value="" placeholder="Contraseña">
+                <input [(ngModel)]="password" class="controls" required type="password" id="pass" name="contraseña" value="" placeholder="Contraseña">
 
-                <input class="buttons" type="submit" name="" value="Ingresar">
+                <button (click)="validarLogin()" class="buttons"><input class="buttons" type="submit" name="" value="Ingresar"></button>
                 <input class="buttons" type="reset" name="" value="Limpiar">
                 <p><a href="#">¿Olvidaste tu contraseña?</a></p>
             </form>
