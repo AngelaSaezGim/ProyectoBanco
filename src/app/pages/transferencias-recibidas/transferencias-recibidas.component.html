@@ -1,3 +1,9 @@
+<main>
+    <section class="form-transferencias-recibidas">
+    
+        <h2> Transferencias Recibidas</h2>
+
+
 <div class="fila-tabla cabecera-tabla">
     <div>Concepto</div>
     <div>Importe</div>
@@ -8,3 +14,8 @@
     <div>{{ transferencia.importe | currency:"EUR" }}</div>
     <div>{{transferencia.fecha | date:"short"}}</div>
 </article>
+
+<p class="go-dashboard"><a routerLink="/pages/dashboard">Ir al Dashboard</a></p>
+
+</section>
+</main>

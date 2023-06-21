@@ -30,7 +30,8 @@ h2{
 
 .controls-dashboard{
     width: 30%; 
-    margin-left: 38%;
+    margin-left: 420px;
+    margin-top: 40px;
     text-align: center;
     padding: 20px;
     border-radius: 4px;

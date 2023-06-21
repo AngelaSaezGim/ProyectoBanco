@@ -1,7 +1,26 @@
+
+.form-transferencias-enviadas{
+
+    width: 80%;
+    height: 700px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+    border-top: 4px solid #7f66e3 ;
+}
+
+
 .fila-tabla{
     display:flex;
     gap: 16px;
-    margin:20px;
+    border: solid 2px black;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
 }
 
 .fila-tabla>div{
@@ -11,4 +30,15 @@
 .cabecera-tabla{
     font-weight: bold;
     text-transform: uppercase;
+    color: #620e41;
+}
+
+.go-dashboard{
+    width: 17%; 
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 470px;
+    text-align: center;
+    border: 2px solid #000000;
+    background-color: transparent;
 }
