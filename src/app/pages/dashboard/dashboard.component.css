@@ -29,7 +29,6 @@
 .user-profile{
     height: 100px;
     width: 100px;
-    background-image: ("/assets/user.png");
     background-size: cover;
     border: solid 2px black;
     margin-top: 50px;

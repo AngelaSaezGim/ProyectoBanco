@@ -1,0 +1,51 @@
+.form-cuenta{
+    width: 80%;
+    height: 850px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+    border-top: 4px solid #7f66e3 ;
+}
+
+.welcome-user{
+    display: flex;
+}
+
+.user-tittle{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.controls-cuenta{
+    width: 70%; 
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-right: 80%;
+    border: 1px solid #000000;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 50px;
+}
+
+.user-profile{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border: solid 2px black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    border-radius: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: #4a1744;
+}
+a:hover{
+    color: rgb(122, 44, 123);
+}
