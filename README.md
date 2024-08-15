@@ -4,13 +4,13 @@
 
 USO;
 
--Angular
+-> Angular
 
--HTML
+-> TypeScript
 
--CSS
+-> HTML
 
--TypeScript
+-> CSS
 
 -------------------------------------------------------------------
 
